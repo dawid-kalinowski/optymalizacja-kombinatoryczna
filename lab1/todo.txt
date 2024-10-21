@@ -1,0 +1,14 @@
+- niech dane wejsciowe (krawędzie) co podawane programowi w formacie najpierw wczesniejsza litera alfabetu,
+pozniej pozniejsza litera alfabetu, np. jezeli podamy krawedz w formie 'ed', niech program dostaje 'de'
+
+- zabezpieczenie zeby móc dodać wierzcholek, którego jeszcze nie ma, a te, które już są, niech nie pozwala dodać
+- wierzcholek musi byc literą
+- wierzcholek ktory usuwasz musi istnieć w grafie, po usunięciu niech usuwa wszystkie krawędzie powiazane z nim,
+oraz zmieni stopien  wierzcholkow połączonych z nim o 1.
+- macierz niech ma u gory i z boku w kazdej kolumnie i wierszu literę
+- wyswietlanie grafu w matplotlibie
+- macierz niech robi jedynki w gornej polowie macierzy trojkatnej, i niech robi lustrzane odbicie w dolnejj.
+- po podaniu krawedzi przez uzytkownika, niech podaje programowi dane w formacie krawędzi z gornej polowy macierzy, 
+i na jej podstawie aktualizuje dolną.
+- macierz musi byc lustrzanym odbiciem wzgledem przekatnej - wtedy stopien wierzcholka liczy sie prawidlowo, czyli
+w rzędzie zlicza cyfry niezerowe
